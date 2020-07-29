@@ -33,7 +33,7 @@ jobs:
       env:
         cookie1: ${{ secrets.COOIKE1 }}
         cookie2: ${{ secrets.COOIKE2 }}
-        auth_url: ${{ secrets.URL }}
+        url: ${{ secrets.URL }}
         qmsg: ${{ secrets.QMSG }}
 
         
