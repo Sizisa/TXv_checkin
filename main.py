@@ -20,7 +20,6 @@ qq_url = qmsg
 url1 = 'https://vip.video.qq.com/fcgi-bin/comm_cgi?name=hierarchical_task_system&cmd=2'
 
 
-
 login_headers = {
     'Referer': 'https://v.qq.com',
     'Cookie': cookie1
