@@ -26,6 +26,7 @@ login_headers = {
     'Cookie': cookie1
 }
 
+
 login = requests.get(auth_url, headers=login_headers)
 cookie = requests.utils.dict_from_cookiejar(login.cookies)
 
