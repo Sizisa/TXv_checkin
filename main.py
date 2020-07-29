@@ -10,10 +10,10 @@ auth_url = os.environ['url']
 cookie1=os.environ['cookie1']
 cookie2=os.environ['cookie2']
 
-print(qmsg+"")
-print(auth_url+"")
-print(cookie1+"")
-print(cookie2+"")
+print(qmsg+" ")
+print(auth_url+" ")
+print(cookie1+" ")
+print(cookie2+" ")
 
 qq_url = qmsg
 
