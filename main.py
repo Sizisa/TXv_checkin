@@ -28,6 +28,7 @@ if not cookie:
     print ("auth_refresh error")
     payload = {'msg': '腾讯视频V力值签到通知'+'\n'+ '获取Cookie失败，Cookie失效'}
     requests.post(qq_url, params=payload)
+    
 
 sign_headers = {
     'Cookie': cookie2 + cookie['vqq_vusession'] + ';'
